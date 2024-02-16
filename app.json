@@ -8,6 +8,20 @@
       "expo-router"
     ],
     "name": "jobs-mobile-app",
-    "slug": "jobs-mobile-app"
+    "slug": "jobs-mobile-app",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f16525db-6c40-485d-acb6-049b739aba7d"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.majilan.jobsmobileapp"
+    },
+    "android": {
+      "package": "com.majilan.jobsmobileapp"
+    }
   }
 }
